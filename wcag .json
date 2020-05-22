@@ -1,0 +1,100 @@
+{
+  "results": [
+    {
+      "code": "WCAG2AAA.Principle2.Guideline2_4.2_4_2.H25.2",
+      "context": "<title> Web Content Accessibility Guid...</title>",
+      "message": "Check that the title element describes the document.",
+      "selector": "html > head > title",
+      "type": "notice",
+      "typeCode": 3
+    },
+    {
+      "code": "WCAG2AAA.Principle2.Guideline2_4.2_4_9.H30",
+      "context": "<a href=\"#main\">Skip to Content</a>",
+      "message": "Check that text of the link describes the purpose of the link.",
+      "selector": "#controls > ul > li:nth-child(1) > a",
+      "type": "notice",
+      "typeCode": 3
+    },
+    {
+      "code": "WCAG2AAA.Principle2.Guideline2_4.2_4_9.H30",
+      "context": "<a href=\"/WAI/meta/customize/\">Change Text Size or Colors</a>",
+      "message": "Check that text of the link describes the purpose of the link.",
+      "selector": "#controls > ul > li:nth-child(2) > a",
+      "type": "notice",
+      "typeCode": 3
+    },
+    {
+      "code": "WCAG2AAA.Principle2.Guideline2_4.2_4_9.H30",
+      "context": "<a style=\"text-transform: capitalize;\" href=\"/WAI/standards-guidelines/wcag/es\" lang=\"es\" dir=\"auto\" translate=\"no\">español</a>",
+      "message": "Check that text of the link describes the purpose of the link.",
+      "selector": "#controls > ul > li:nth-child(3) > ul > li:nth-child(2) > a",
+      "type": "notice",
+      "typeCode": 3
+    },
+    {
+      "code": "WCAG2AAA.Principle2.Guideline2_4.2_4_9.H30",
+      "context": "<a href=\"/WAI/translations/\">All&nbsp;Translations <svg focu...</a>",
+      "message": "Check that text of the link describes the purpose of the link.",
+      "selector": "#controls > ul > li:nth-child(4) > a",
+      "type": "notice",
+      "typeCode": 3
+    },
+    {
+      "code": "WCAG2AAA.Principle3.Guideline3_2.3_2_1.G107",
+      "context": "<button id=\"showoptions\" data-showhidebuttonid=\"header-showoptions\" class=\"showhidebutton button-inline\" data-target=\"#controls .opt\" aria-expanded=\"false\" data-large-aria-expanded=\"true\" data-showtext=\"&lt;svg focusable=&quot;false&quot; aria-hidden...",
+      "message": "Check that a change of context does not occur when this input field receives focus.",
+      "selector": "#showoptions",
+      "type": "notice",
+      "typeCode": 3
+    },
+    {
+      "code": "WCAG2AAA.Principle2.Guideline2_4.2_4_9.H30",
+      "context": "<a lang=\"en\" class=\"home w3c\" href=\"https://www.w3.org/\">\n      <svg role=\"img\" aria-lab...</a>",
+      "message": "Check that text of the link describes the purpose of the link.",
+      "selector": "#site-header > div:nth-child(1) > a:nth-child(1)",
+      "type": "notice",
+      "typeCode": 3
+    },
+    {
+      "code": "WCAG2AAA.Principle2.Guideline2_4.2_4_9.H30",
+      "context": "<a lang=\"en\" class=\"home\" href=\"/WAI/\">\n      <span class=\"wai\"><span ...</a>",
+      "message": "Check that text of the link describes the purpose of the link.",
+      "selector": "#site-header > div:nth-child(1) > a:nth-child(2)",
+      "type": "notice",
+      "typeCode": 3
+    },
+    {
+      "code": "WCAG2AAA.Principle3.Guideline3_2.3_2_1.G107",
+      "context": "<button class=\"button button-menu\" aria-haspopup=\"true\" aria-expanded=\"false\" id=\"openmenu\"><span><svg focusable=\"false\" ar...</button>",
+      "message": "Check that a change of context does not occur when this input field receives focus.",
+      "selector": "#openmenu",
+      "type": "notice",
+      "typeCode": 3
+    },
+    {
+      "code": "WCAG2AAA.Principle2.Guideline2_4.2_4_9.H30",
+      "context": "<a href=\"/WAI/about/participating/\">Get Involved</a>",
+      "message": "Check that text of the link describes the purpose of the link.",
+      "selector": "#site-header > div:nth-child(2) > nav > ul > li:nth-child(1) > a",
+      "type": "notice",
+      "typeCode": 3
+    },
+    {
+      "code": "WCAG2AAA.Principle2.Guideline2_4.2_4_9.H30",
+      "context": "<a href=\"/WAI/about/\">About W3C WAI</a>",
+      "message": "Check that text of the link describes the purpose of the link.",
+      "selector": "#site-header > div:nth-child(2) > nav > ul > li:nth-child(2) > a",
+      "type": "notice",
+      "typeCode": 3
+    },
+    {
+      "code": "WCAG2AAA.Principle3.Guideline3_3.3_3_1.G83,G84,G85",
+      "context": "<form action=\"/WAI/search/\" role=\"search\">\n          <div>\n            <l...</form>",
+      "message": "If an input error is automatically detected in this form, check that the item(s) in error are identified and the error(s) are described to the user in text.",
+      "selector": "#site-header > div:nth-child(2) > nav > ul > li:nth-child(3) > form",
+      "type": "notice",
+      "typeCode": 3
+   }
+  ]
+}
